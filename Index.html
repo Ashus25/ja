@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTGeats - Home Food Delivery</title>
+    <link rel="stylesheet" href="Style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">JTGeats</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><button id="cartBtn" class="icon-btn">🛒</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Authentic Home Food in India</h1>
+            <p>JTGeats is a courier service in which authentic home-cooked food is delivered to a customer.</p>
+            <input type="text" placeholder="Search food you love">
+            <button class="btn-search">Search</button>
+        </div>
+        <div class="hero-image">
+            <img src="cuate.svg" alt="Hero Image">
+        </div>
+    </section>
+
+    <!-- Home Kitchen -->
+    <section class="home-kitchen">
+        <h2>Home Kitchen</h2>
+        <div class="menu-grid">
+            <!-- Sample dish card -->
+            <div class="dish-card">
+                <img src="pizza2.png" alt="Dish">
+                <h3>Home Made Pizza</h3>
+                <p>₹190</p>
+                <div class="dish-details">
+                    <span>⭐ 4.7</span>
+                    <span>⏱ 30 mins</span>
+                </div>
+                <button>Order Now</button>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+            <div class="dish-card">
+                <img src="pizza3.png" alt="Dish">
+                <h3>Home Made Pizza</h3>
+                <p>₹190</p>
+                <div class="dish-details">
+                    <span>⭐ 4.7</span>
+                    <span>⏱ 30 mins</span>
+                </div>
+                <button>Order Now</button>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+            <div class="dish-card">
+                <img src="pizza4.png" alt="Dish">
+                <h3>Home Made Pizza</h3>
+                <p>₹190</p>
+                <div class="dish-details">
+                    <span>⭐ 4.7</span>
+                    <span>⏱ 30 mins</span>
+                </div>
+                <button>Order Now</button>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+            <div class="dish-card">
+                <img src="pizza5.png" alt="Dish">
+                <h3>Home Made Pizza</h3>
+                <p>₹190</p>
+                <div class="dish-details">
+                    <span>⭐ 4.7</span>
+                    <span>⏱ 30 mins</span>
+                </div>
+                <button>Order Now</button>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+            <div class="dish-card">
+                <img src="pizza6.png" alt="Dish">
+                <h3>Home Made Pizza</h3>
+                <p>₹190</p>
+                <div class="dish-details">
+                    <span>⭐ 4.7</span>
+                    <span>⏱ 30 mins</span>
+                </div>
+                <button>Order Now</button>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+            <div class="dish-card">
+                <img src="pizza7.png" alt="Dish">
+                <h3>Home Made Pizza</h3>
+                <p>₹190</p>
+                <div class="dish-details">
+                    <span>⭐ 4.7</span>
+                    <span>⏱ 30 mins</span>
+                </div>
+                <button>Order Now</button>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+            <div class="dish-card">
+                <img src="pizza8.png" alt="Dish">
+                <h3>Home Made Pizza</h3>
+                <p>₹190</p>
+                <div class="dish-details">
+                    <span>⭐ 4.7</span>
+                    <span>⏱ 30 mins</span>
+                </div>
+                <button>Order Now</button>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+            <div class="dish-card">
+                <img src="pizza9.png" alt="Dish">
+                <h3>Home Made Pizza</h3>
+                <p>₹190</p>
+                <div class="dish-details">
+                    <span>⭐ 4.7</span>
+                    <span>⏱ 30 mins</span>
+                </div>
+                <button>Order Now</button>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+            <!-- Repeat similar dish cards -->
+        </div>
+    </section>
+
+    <!-- Popular Items -->
+    <section class="popular-items">
+        <h2>Popular Items</h2>
+        <div class="slider">
+            <!-- <button class="slider-btn prev">&lt;</button> -->
+            <div class="slider-track">
+                <div class="slider-item">
+                    <img src="pizza1.png" alt="Pizza">
+                    <h4>Home Made Pizza</h4>
+                    <p>₹190</p>
+                </div>
+                <div class="slider-item">
+                    <img src="dish1.png" alt="Tandoori">
+                    <h4>Tandoori Chicken</h4>
+                    <p>₹184</p>
+                </div>
+                <div class="slider-item">
+                    <img src="dish2.png" alt="Chili">
+                    <h4>Chili Chicken</h4>
+                    <p>₹116</p>
+                </div>
+            </div>
+            <!-- <button class="slider-btn next">&gt;</button> -->
+        </div>
+        <button id="requestDish" class="btn-request">Request a Dish</button>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <h2>We are providing the best home-cooked food delivery service.</h2>
+        <div class="video-container">
+            <video id="promoVideo" src="video.mp4" poster="poster.png"></video>
+            <div id="videoOverlay" class="play-overlay">▶</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Have a Question or Want to Become a Seller?</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© JTGeats 2024. All rights reserved.</p>
+    </footer>
+
+    <!-- Modals -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <h3>Your Cart is Empty</h3>
+            <button id="closeCart">Back to Menu</button>
+        </div>
+    </div>
+
+    <div id="requestModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 style="color: #ff5733;">Request a Dish</h2>
+            <p>Let us know your favorite dish, and we will add it to our menu!</p>
+            <form id="requestDishForm">
+                <input type="text" placeholder="Your Dish Name" required>
+                <input type="text" placeholder="Additional Notes (optional)">
+                <button type="submit" style="background-color: #ff5733; color: white;">Submit Request</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
